@@ -71,8 +71,11 @@ Tested on Kali Linux and standard Linux distributions.
 
 **Installation**
 git clone https://github.com/pwnpilot/binary-secret-hunter.git
+
 cd binary-secret-hunter
+
 chmod +x binary_secret_hunter.sh
+
 **Usage**
 ./binary_secret_hunter.sh target_binary.exe
 Example Targets
