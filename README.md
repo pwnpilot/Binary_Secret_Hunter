@@ -70,7 +70,7 @@ sort
 Tested on Kali Linux and standard Linux distributions.
 
 **Installation**
-git clone https://github.com/yourusername/binary-secret-hunter.git
+git clone https://github.com/pwnpilot/binary-secret-hunter.git
 cd binary-secret-hunter
 chmod +x binary_secret_hunter.sh
 **Usage**
