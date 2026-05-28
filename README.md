@@ -24,6 +24,7 @@ Lateral movement in enterprise networks
 Binary Secret Hunter provides a fast, automated first-level inspection before deeper reverse-engineering with tools like Ghidra or IDA.
 
 ****** Features******
+
 **Credential & Secret Discovery**
 
 Detects common indicators of sensitive data including:
