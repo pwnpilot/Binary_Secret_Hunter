@@ -61,10 +61,13 @@ Red Team reconnaissance
 Malware & forensic analysis
 CI/CD binary security validation
 Hardcoded secret detection before release
-⚙️ Requirements
+**Requirements**
 Bash (Linux/macOS)
+
 strings (binutils)
+
 grep
+
 sort
 
 Tested on Kali Linux and standard Linux distributions.
@@ -77,10 +80,15 @@ cd binary-secret-hunter
 chmod +x binary_secret_hunter.sh
 
 **Usage**
+
 ./binary_secret_hunter.sh target_binary.exe
+
 Example Targets
+
 ./binary_secret_hunter.sh app.exe
+
 ./binary_secret_hunter.sh agent.dll
+
 ./binary_secret_hunter.sh client.elf
 
 **Output**
@@ -97,15 +105,21 @@ Referenced config and key files
 Results are deduplicated and sorted for clarity.
 
 **Limitations**
+
 This is a static string-based analysis tool
+
 Obfuscated, encrypted, or runtime-generated secrets may not be detected
+
 False positives may occur and require analyst validation
 
 For deeper inspection, combine with:
 
 Ghidra
+
 IDA Pro
+
 x64dbg
+
 ProcMon / API monitoring
 
 **Legal Disclaimer**
